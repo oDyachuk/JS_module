@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>TodoList</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 480px; margin: 40px auto; }
+    #taskList li { cursor: pointer; padding: 6px 0; }
+    #taskList li.done { text-decoration: line-through; color: #888; }
+    button { margin-left: 8px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Мій список завдань</h1>
+  <input id="taskInput" placeholder="Нове завдання">
+  <button id="addBtn">Додати</button>
+  <ul id="taskList"></ul>
+ 
+  <script src="app.js"></script>
+</body>
+</html>
